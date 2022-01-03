@@ -1,0 +1,42 @@
+{
+  "id": "navbar",
+  "type": "SharedSlice",
+  "name": "Navbar",
+  "description": "Navbar",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Navbar",
+      "primary": {
+        "imagen": {
+          "config": {
+            "label": "imagen",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "links": {
+          "config": {
+            "label": "links",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "list-item,hyperlink"
+          },
+          "type": "StructuredText"
+        },
+        "button": {
+          "config": {
+            "label": "button",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

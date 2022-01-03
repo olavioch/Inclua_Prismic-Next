@@ -1,0 +1,99 @@
+{
+  "id": "posts_inclua",
+  "type": "SharedSlice",
+  "name": "PostsInclua",
+  "description": "PostsInclua",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "PostsInclua",
+      "primary": {
+        "IncluaTitle": {
+          "config": {
+            "label": "IncluaTitle",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "imagen": {
+          "config": {
+            "label": "imagen",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "topic": {
+          "config": {
+            "label": "topic",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "config": {
+            "label": "title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          },
+          "type": "StructuredText"
+        },
+        "date": {
+          "config": {
+            "label": "date",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {
+        "imagen": {
+          "config": {
+            "label": "imagen",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "topic": {
+          "config": {
+            "label": "topic",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "config": {
+            "label": "title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "date": {
+          "config": {
+            "label": "date",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    }
+  ]
+}

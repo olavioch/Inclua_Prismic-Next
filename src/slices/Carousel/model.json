@@ -1,0 +1,60 @@
+{
+  "id": "carousel",
+  "type": "SharedSlice",
+  "name": "Carousel",
+  "description": "Carousel",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Carousel",
+      "primary": {},
+      "items": {
+        "imagen": {
+          "config": {
+            "label": "imagen",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "topic": {
+          "config": {
+            "label": "topic",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "embed"
+          },
+          "type": "StructuredText"
+        },
+        "title": {
+          "config": {
+            "label": "title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1"
+          },
+          "type": "StructuredText"
+        },
+        "descricao": {
+          "config": {
+            "label": "descricao",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "date": {
+          "config": {
+            "label": "date",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    }
+  ]
+}

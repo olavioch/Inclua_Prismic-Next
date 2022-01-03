@@ -1,0 +1,59 @@
+{
+  "id": "posts_gostar",
+  "type": "SharedSlice",
+  "name": "PostsGostar",
+  "description": "PostsGostar",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "PostsGostar",
+      "primary": {
+        "gostartitle": {
+          "config": {
+            "label": "gostartitle",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {
+        "imagen": {
+          "config": {
+            "label": "imagen",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "topic": {
+          "config": {
+            "label": "topic",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "config": {
+            "label": "title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          },
+          "type": "StructuredText"
+        },
+        "date": {
+          "config": {
+            "label": "date",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    }
+  ]
+}

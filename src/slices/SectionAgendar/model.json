@@ -1,0 +1,51 @@
+{
+  "id": "section_agendar",
+  "type": "SharedSlice",
+  "name": "SectionAgendar",
+  "description": "SectionAgendar",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "SectionAgendar",
+      "primary": {
+        "imagen": {
+          "config": {
+            "label": "imagen",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "titlecolor": {
+          "config": {
+            "label": "titlecolor",
+            "placeholder": "title1: preto, title2: laranja",
+            "allowTargetBlank": true,
+            "single": "list-item"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "button": {
+          "config": {
+            "label": "button",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

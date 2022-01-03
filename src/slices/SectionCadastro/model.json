@@ -1,0 +1,48 @@
+{
+  "id": "section_cadastro",
+  "type": "SharedSlice",
+  "name": "SectionCadastro",
+  "description": "SectionCadastro",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "SectionCadastro",
+      "primary": {
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "order": {
+          "config": {
+            "label": "order",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "inputplaceholder": {
+          "config": {
+            "label": "inputplaceholder",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "button": {
+          "config": {
+            "label": "button",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

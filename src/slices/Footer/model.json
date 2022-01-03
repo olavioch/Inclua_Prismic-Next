@@ -1,0 +1,90 @@
+{
+  "id": "footer",
+  "type": "SharedSlice",
+  "name": "Footer",
+  "description": "Footer",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Footer",
+      "primary": {
+        "logo": {
+          "config": {
+            "label": "logo",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "titlemenua": {
+          "config": {
+            "label": "titlemenua",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "menua": {
+          "config": {
+            "label": "menua",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "list-item"
+          },
+          "type": "StructuredText"
+        },
+        "titlemenub": {
+          "config": {
+            "label": "titlemenub",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "menub": {
+          "config": {
+            "label": "menub",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "list-item"
+          },
+          "type": "StructuredText"
+        },
+        "titlecontacts": {
+          "config": {
+            "label": "titlecontacts",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "description": {
+          "config": {
+            "label": "description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "phone": {
+          "config": {
+            "label": "phone",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {
+        "socialimage": {
+          "config": {
+            "label": "socialimage",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      }
+    }
+  ]
+}
